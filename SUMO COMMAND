@@ -1,0 +1,55 @@
+./sumo-launchd.py -vv -c sumo-gui
+
+
+
+Redirect to the repo containing the original project
+ git init
+
+ git add .
+ git commit -m "in"
+ git remote add origin https://github.com/keert89/keert89.github.io (use your github proj link)
+ git remote -v
+			
+ git push origin master --force
+
+
+
+./configure --with-tcl-ver=8.5.10 --with-tk-ver=8.5.10 --with-otcl-ver=1.14
+make
+
+Figure 10 shows the impact of traffic density on packet delivery ratio. With an increase in traffic density, the packet delivery ratio starts to increase. This is because traffic density is the source of connectivity. High traffic density provides more connectivity. The packet delivery ratio depends on connectivity. This is because as the number of nodes increases, the number of neighbor nodes in the candidate forwarding relay set increases and the success ratio of transmitting the data packet from the current node to the destination node becomes higher. 
+
+Perfect!!!!!!!!!!!!
+cd ns-allinone-2.35/
+export CC=gcc-5 CXX=g++-5 && ./install
+export CC=gcc-5 CXX=-std=c++11 && ./install
+cd ns-2.35/
+sudo make install
+
+
+sorta/file.cc:40:66: error: cannot convert ‘const char* const’ to ‘Tcl_Obj*’ for argument ‘2’ to ‘int Tcl_ListObjGetElements(Tcl_Interp*, 
+
+
+TCL FILE : /home/keyrooh/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2/tcl-wcw.txl
+Only works till sorting. For path, go to python file.
+Path : /desktop/FYP/Review2/GPS-Data-Mining
+
+
+https://rosettacode.org/wiki/K-means%2B%2B_clustering
+
+
+keyrooh@keerthoo:~/Desktop/ns-allinone-2.35_gcc482/ns-allinone-2.35/ns-2.35/indep-utils/cmu-scen-gen$ ns cbrgen.tcl -type tcp -nn 6 -seed 1 -mc 20 -rate 0.001 > /home/keyrooh/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2/tcpgen1.tcl
+keyrooh@keerthoo:~/Desktop/ns-allinone-2.35_gcc482/ns-allinone-2.35/ns-2.35/indep-utils/cmu-scen-gen$ cd setdest/
+keyrooh@keerthoo:~/Desktop/ns-allinone-2.35_gcc482/ns-allinone-2.35/ns-2.35/indep-utils/cmu-scen-gen/setdest$ ./setdest -v 2 -n 6 -s 1 -m 5 -M 20 -t 200 -P 1 -p 1 -x 700 -y 700 > /home/keyrooh/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2/scene-7
+keyrooh@keerthoo:~/Desktop/ns-allinone-2.35_gcc482/ns-allinone-2.35/ns-2.35/indep-utils/cmu-scen-gen/setdest$ 
+
+
+sed 's/ \+/ /g' /home/keyrooh/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2/delay.txt | tr [A-Z] [a-z] > /home/keyrooh/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2/delay1.txt
+
+sed '/^$/d' /home/keyrooh/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2/delay1.txt > /home/keyrooh/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2/delay2.txt
+
+
+keyrooh@keerthoo:~/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2$ awk '{gsub(/\"/,"")};1' jitter.txt > jitter1.txt
+keyrooh@keerthoo:~/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2$ sed 's/ \+/ /g' jitter1.txt | tr [A-Z] [a-z] > jitter2.txt
+keyrooh@keerthoo:~/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2$ sed '/^$/d' /home/keyrooh/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2/delay.txt > /home/keyrooh/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2/delay.txt
+keyrooh@keerthoo:~/Desktop/FYP/Wired-cum-Wireless-Network-Simulation-ns2$ head jitter3.txt 
